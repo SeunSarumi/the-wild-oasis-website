@@ -1,5 +1,5 @@
 import Counter from "../components/counter.jsx";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/Navigation.js";
 
 export default async function Page() {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");

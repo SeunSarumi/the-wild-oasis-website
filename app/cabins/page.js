@@ -1,3 +1,4 @@
+import Counter from "../components/counter.jsx";
 import Navigation from "../components/Navigation";
 
 export default async function Page() {
@@ -14,6 +15,8 @@ export default async function Page() {
           <li key={user.id}>{user.name}</li>
         ))}
       </ul>
+
+      <Counter />
     </div>
   );
 }
